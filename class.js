@@ -138,4 +138,23 @@
 //     motor.accelerate(50); 
 //     motor.move(); 
 
- 
+ // Prototypes
+// A prototyope is the mechanism in js that makes it possible to have object
+// class person{
+//     constructor(firstname,lastname="Maurya"){
+//         this.firstname=firstname;
+//         this.lastname=lastname;
+//     }
+//     greet(){
+//         console.log("Hi there! I'm",this.firstname,this.lastname);
+        
+//     }
+// }
+
+// person.prototype.introduce=()=>{
+//     console.log("Hi! I am ",this.firstname);
+// }
+// person.prototype.favoritecolor="green";
+// let p=new person("Priyanshu");
+// console.log(p.favoritecolor);
+// p.introduce();
