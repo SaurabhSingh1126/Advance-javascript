@@ -107,3 +107,45 @@
 // using alias while destructuring means giving another name to the variable while destructuring 
 // let {firstName:name}=person;
 // console.log(name);
+
+//array destructring
+// const fruits = ["banana","orange","apple","mango"];
+// let {[0]:fruit1,[1]:fruit2}=fruits;
+// console.log(fruit2);
+
+
+// //the rest property
+// const numbers = [10,20,30,40,50,60,70];
+// const[a,b,...rest]= numbers
+// console.log(numbers)
+
+//destructing
+// let firstname="saurabh";
+// let lastname="singh";
+// [firstname,lastname]=[lastname,firstname]
+// console.log(firstname,lastname);
+
+//------------------------------exponential operator ------------------------
+// let x=5;
+// let z=Math.pow(x,2);
+// console.log(z);
+// const fruits = ["banana","orange","apple","mango"];
+// console.log(fruits.includes("mango"));
+// console.log(fruits.includes("banana"));
+// console.log(fruits.includes("ava"));
+
+//-------------------------------------Trailing comma------------------------------------
+
+// const arr = [
+//     "one",
+//     "two",
+
+//     "three",,
+// ];
+// console.log(arr.length);
+
+// const person = [
+//     firstname = "john",
+//     lastname = "singh",
+// ]
+// console.log(person.length);
